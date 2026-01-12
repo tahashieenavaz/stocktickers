@@ -4,3 +4,7 @@ from .germany import tickers as germany
 from .germany import tickers as frankfurt
 from .uk import tickers as uk
 from .uk import tickers as london
+from .italy import tickers as italy
+from .italy import tickers as milan
+from .italy import tickers as rome
+from .hongkong import tickers as hongkong
