@@ -1,4 +1,4 @@
-tickers_no_prefix = [
+raw_tickers = [
     "0700",
     "1398",
     "1288",
@@ -2681,4 +2681,4 @@ tickers_no_prefix = [
     "8475"
 ]
 
-tickers = list(map(lambda x: x + ".HK", tickers_no_prefix))
+tickers = list(map(lambda x: x + ".HK", raw_tickers))
