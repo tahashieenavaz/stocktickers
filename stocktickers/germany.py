@@ -1,4 +1,4 @@
-tickers = [
+raw_tickers = [
     "NVD",
     "NVDG",
     "ABEA",
@@ -8929,3 +8929,5 @@ tickers = [
     "BTG",
     "BTG4"
 ]
+
+tickers = list(map(lambda x: f"{x}.F", raw_tickers))
