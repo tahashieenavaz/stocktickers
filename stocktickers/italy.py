@@ -1,4 +1,4 @@
-tickers = [
+raw_tickers = [
     "1NVDA",
     "1GOOG",
     "1AAPL",
@@ -1130,3 +1130,5 @@ tickers = [
     "GT",
     "INT"
 ]
+
+tickers = list(map(lambda x: f"{x}.MI", raw_tickers))
