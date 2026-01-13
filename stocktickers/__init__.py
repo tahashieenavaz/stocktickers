@@ -10,3 +10,5 @@ from .italy import tickers as rome
 from .hongkong import tickers as hongkong
 from .canada import tickers as canada
 from .canada import tickers as toronto
+from .nasdaq import tickers as nasdaq
+from .nyse import tickers as nyse
