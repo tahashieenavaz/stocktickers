@@ -14,3 +14,5 @@ from .nasdaq import tickers as nasdaq
 from .nyse import tickers as nyse
 from .france import tickers as france
 from .france import tickers as paris
+from .china import tickers as china
+from .china import tickers as shenzhen
