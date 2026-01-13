@@ -12,3 +12,5 @@ from .canada import tickers as canada
 from .canada import tickers as toronto
 from .nasdaq import tickers as nasdaq
 from .nyse import tickers as nyse
+from .france import tickers as france
+from .france import tickers as paris
